@@ -1,0 +1,15 @@
+div#parent {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px 150px 150px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid black;
+}
+
+.child {
+  background-color: white;
+}
+.c11{
+  background-color: black;
+}
